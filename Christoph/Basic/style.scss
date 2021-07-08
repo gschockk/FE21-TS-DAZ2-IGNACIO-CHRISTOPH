@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    15deg,
+    rgb(14, 0, 36) 0%,
+    rgb(121, 9, 78) 46%,
+    rgb(255, 0, 0) 100%
+  );
+  #demo {
+    width: 80vw;
+    margin: 5vh auto;
+
+    .card {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 39, 121, 1) 46%,
+        rgba(0, 212, 255, 1) 100%
+      );
+      color: white;
+    }
+
+    div {
+      margin: 5vh auto;
+    }
+  }
+}

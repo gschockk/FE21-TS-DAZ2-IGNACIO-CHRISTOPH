@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #020024;
+  background: linear-gradient(15deg, #0e0024 0%, #79094e 46%, red 100%);
+}
+
+body #demo {
+  width: 80vw;
+  margin: 5vh auto;
+}
+
+body #demo .card {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(46%, #092779), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #092779 46%, #00d4ff 100%);
+  color: white;
+}
+
+body #demo div {
+  margin: 5vh auto;
+}
+/*# sourceMappingURL=style.css.map */
