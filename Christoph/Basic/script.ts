@@ -1,4 +1,4 @@
-// ts-check
+// @ts-check
 
 const imgPath: String = 'img/person.png'; //Path to the img as string
 

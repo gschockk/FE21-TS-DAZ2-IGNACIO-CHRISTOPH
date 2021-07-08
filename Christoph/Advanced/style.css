@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(img/Sweet_Morning.jpg);
+}
+
+body .container {
+  width: 60vw;
+}
+
+body #demo .mycard {
+  width: 30rem;
+  margin: 5vh auto;
+  text-align: center;
+}
+
+.btn-primary {
+  width: 100% !important;
+}
+/*# sourceMappingURL=style.css.map */
